@@ -4,7 +4,7 @@ body {
   min-width: 100vw;
 }
 
-.field-form{
+.field-form {
   margin: auto;
   width: 40%;
 }
@@ -23,24 +23,29 @@ body {
   flex-direction: column;
 }
 
-.field-input { 
+.field-input {
   display: flex;
   flex-direction: column;
 }
 
 .field-input input {
-  border: .1rem solid #ccc;
-  padding: .5rem;
-}
-
-button {
-  padding: .5rem;
-  background-color: #B3093F;
-  text-align: center;
-  color: #fff;
+  border: 0.1rem solid #ccc;
+  padding: 0.5rem;
 }
 
 p a {
-  color: #B3093F;
+  color: #b3093f;
   cursor: pointer;
+}
+
+button {
+  padding: 0.5rem;
+  background-color: #b3093f;
+  text-align: center;
+  color: #fff;
+  transition: all .4s ease;
+}
+
+button:hover {
+  filter: brightness(80%);
 }
