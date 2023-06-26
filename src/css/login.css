@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.field-form{
+  margin: auto;
+  width: 40%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  width: 5rem;
+  margin: auto;
+}
+
+.field-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field-input { 
+  display: flex;
+  flex-direction: column;
+}
+
+.field-input input {
+  border: .1rem solid #ccc;
+  padding: .5rem;
+}
+
+button {
+  padding: .5rem;
+  background-color: #B3093F;
+  text-align: center;
+  color: #fff;
+}
+
+p a {
+  color: #B3093F;
+}
