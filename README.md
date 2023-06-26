@@ -1,4 +1,4 @@
-# MoodMonitor ![Logo][https://i.ibb.co/2KMbBK4/small-moodmonitor.png]
+# MoodMonitor
 
 Aplicativo de monitoramento de saúde mental
 
