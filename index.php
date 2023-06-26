@@ -10,9 +10,7 @@ include "src/components/header.php"; ?>
             Monitores suas emoções
         </p>
         </div>
-        <form action="<?php echo $_SERVER[
-          "PHP_SELF"
-        ]; ?>" method="post" autocomplete="on">
+        <form action="./src/views/pages/main" method="post" autocomplete="on">
             <div class="field-input">
                 <label for="username">Email</label>
                 <input type="text" name="username" id="username" required>
