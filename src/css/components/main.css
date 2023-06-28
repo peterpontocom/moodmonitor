@@ -8,7 +8,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-a, button, ul, input {
-    all: unset;
+body {
+    overflow-x: hidden;
 }
-

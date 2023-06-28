@@ -21,6 +21,7 @@ body {
 .field-form form {
   display: flex;
   flex-direction: column;
+  gap: 0.7rem;
 }
 
 .field-input {
@@ -44,7 +45,8 @@ button {
   background-color: #b3093f;
   text-align: center;
   color: #fff;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
+  margin-top: 1rem;
 }
 
 button:hover {

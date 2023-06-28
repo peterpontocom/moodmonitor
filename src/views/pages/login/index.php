@@ -1,7 +1,16 @@
 <?php
-include "src/components/header.php"; ?>
+include "../../../components/header.php";
 
-<link rel="stylesheet" href="./src/css/login.css">
+$emailValue = "";
+
+if (isset($_POST["send"])) {
+  $emailValue = $_POST["useremail"];
+}
+?>
+
+<link rel="stylesheet" href="../../../css/login.css">
+<link rel="stylesheet" href="../../../css/components/main.css">
+
 
     <div class="field-form">
         <div class="logo">
@@ -12,18 +21,18 @@ include "src/components/header.php"; ?>
         </div>
         <form action="./src/views/pages/main" method="post" autocomplete="on">
             <div class="field-input">
-                <label for="username">Email</label>
-                <input type="text" name="username" id="username" required>
+                <label for="useremail">Email</label>
+                <input type="email" name="useremail" id="useremail" required value="<?php echo $emailValue; ?>">
             </div>
             <div class="field-input">
                 <label for="userpassword">Palavra-passe</label>
                 <input type="password" name="userpassword" id="userpassword" required>
             </div>
             <p class="text-end">
-                Não tem conta? <a href="/">Crie uma.</a>
+                Não tem conta? <a href="../createAccount/">Crie uma.</a>
             </p>
-            <button name="send">Entrar</button>
+            <button name="send" id="send">Entrar</button>
         </form>
     </div>
-<?php include "src/components/footer.php";
+<?php include "../../../components/footer.php";
 ?>
