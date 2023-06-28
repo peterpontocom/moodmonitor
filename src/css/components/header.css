@@ -1,0 +1,27 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 1rem;
+}
+
+a {
+  color: #000;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+button {
+  color: #fff;
+  background-color: #363636;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  transition: .4s;
+}
+
+button:hover {
+  background-color: #000000;
+}

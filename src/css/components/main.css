@@ -8,6 +8,15 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+ul {
+    all: unset;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
     overflow-x: hidden;
 }
