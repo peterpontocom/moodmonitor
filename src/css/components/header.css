@@ -3,6 +3,7 @@ header {
   width: 100%;
   top: 0;
   padding: 1rem;
+  background-color: #fff;
 }
 
 a {
@@ -14,7 +15,7 @@ nav ul {
   gap: 2rem;
 }
 
-button {
+button.btn-finishSession {
   color: #fff;
   background-color: #363636;
   padding: 0.4rem;
@@ -22,6 +23,6 @@ button {
   transition: .4s;
 }
 
-button:hover {
+button.btn-finishSession:hover {
   background-color: #000000;
 }

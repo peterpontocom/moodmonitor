@@ -1,0 +1,122 @@
+main {
+  margin-top: 7rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 100%;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 9rem;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: .1rem solid #ccc;
+  padding: .5rem;
+}
+
+form div input {
+  width: 100%;
+}
+
+form div button {
+  background: none;
+}
+
+.slog {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  margin: 2rem 0;
+}
+
+.destach {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: #ccc url('../assets/images/homem-montanha.jpg') no-repeat center center;
+  background-size: cover;
+  height: 30rem;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #fff;
+  position: relative;
+  cursor: pointer;
+  transition: .4s;
+  transform: scale(.9);
+  overflow: hidden;
+}
+
+.destach:hover {
+  transform: scale(1);
+}
+
+.destach::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to bottom, transparent, #000000);
+}
+
+.destach h1, p, .hastag {
+  z-index: 1;
+}
+
+.destach p {
+  width: 70%;
+}
+
+.destach .hastag span {
+  padding: .5rem;
+  background-color: #9c9c9c8a;
+  border-radius: 2rem;
+}
+
+section {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+}
+
+section article {
+  display: flex;
+  flex-direction: column;
+  width: 20rem;
+}
+
+article .cover {
+  background: #ccc url("https://i.ibb.co/2KMbBK4/small-moodmonitor.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 9rem;
+}
+
+article h1 {
+  font-size: 1.5em;
+}
+
+article .hastag {
+  display: flex;
+  gap: 1rem;
+}
+
+article .hastag span {
+  display: inline-block;
+  padding: .3rem;
+  border: .1rem solid #000;
+  border-radius: 2rem;
+  font-size: .8em;
+}
