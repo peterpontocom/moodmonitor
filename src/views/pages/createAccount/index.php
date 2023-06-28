@@ -1,6 +1,8 @@
 <?php
+
 include "../../../database/connection.php";
 include "../../../components/header.php";
+
 ?>
 <link rel="stylesheet" href="../../../css/createAccount.css">
 
@@ -11,24 +13,24 @@ include "../../../components/header.php";
             Crie uma Conta
         </div> 
         </div>
-        <form action="./src/views/pages/main" method="post" autocomplete="on">
+        <form action="../../../database/varification.php" method="post" autocomplete="on">
             <div class="field-input">
-                <label for="useremail">Email</label>
-                <input type="email" name="useremail" id="useremail" required placeholder="samara@gmail.com">
-            </div>
             <div class="field-input">
                 <label for="username">Nome do usuario</label>
                 <input type="text" name="username" id="username" required placeholder="Samara da Cunha">
+            </div>
+                <label for="useremail">Email</label>
+                <input type="email" name="useremail" id="useremail" required placeholder="samara@gmail.com">
             </div>
             <div class="field-input">
                 <label for="userpassword">Palavra-passe</label>
                 <input type="password" name="userpassword" id="userpassword" required placeholder="*********">
             </div>
             <div class="field-input">
-                <label for="userpassword">Confirmar Palavra-passe</label>
-                <input type="password" name="userpassword" id="userpassword" required placeholder="*********">
+                <label for="confirmUserPassword">Confirmar Palavra-passe</label>
+                <input type="password" name="confirmUserPassword" id="confirmUserPassword" required placeholder="*********">
             </div>
-            <button name="send" id="send">Criar Conta</button>
+            <button name="addAccount" id="addAccount">Criar Conta</button>
         </form>
     </div>
 

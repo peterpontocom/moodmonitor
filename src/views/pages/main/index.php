@@ -1,3 +1,3 @@
 <?php
-  include "../../../database/connection.php";
+  echo "Welcome to the Symfony"
 ?>

@@ -18,7 +18,7 @@ if (isset($_POST["send"])) {
         <p>
             Monitores suas emoções
         </p>
-        </div>
+        </div> 
         <form action="./src/views/pages/main" method="post" autocomplete="on">
             <div class="field-input">
                 <label for="useremail">Email</label>
