@@ -10,13 +10,13 @@
   </a>
   <nav>
     <ul>
-      <li><a href="#">Blog</a></li>
-      <li><a href="#">Sentindo</a></li>
-      <li><a href="#">Hábito</a></li>
-      <li><a href="#">Metas e Lembretes</a></li>
-      <li><a href="#">Progresso</a></li>
-      <li><a href="#">Comunidade</a></li>
-      <li><a href="#">Definições</a></li>
+      <li><a href="#" class="navItem blog">Blog</a></li>
+      <li><a href="#" class="navItem feelingsPage">Sentindo</a></li>
+      <li><a href="#" class="navItem habitPage">Hábito</a></li>
+      <li><a href="#" class="navItem reminderPage">Metas e Lembretes</a></li>
+      <li><a href="#" class="navItem progressPage">Diário</a></li>
+      <li><a href="#" class="navItem cumuPage">Comunidade</a></li>
+      <li><a href="#" class="navItem defPage">Definições</a></li>
     </ul>
   </nav>
   <div class="finishSession">

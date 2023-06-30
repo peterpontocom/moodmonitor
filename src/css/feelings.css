@@ -1,0 +1,80 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 50%;
+}
+
+main h1 { 
+  text-align: center;
+}
+
+.feelingsContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.feelingsContainer .feel {
+  /*padding: 1rem;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ccc;
+  height: 3rem;
+  transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  color: #ffffff;
+}
+
+.feelingsContainer .feel:hover {
+  transform: scale(0.9);
+}
+
+.feelingsContainer .happy {
+  background: linear-gradient(-20deg, #ffff00, #ffd932);
+}
+
+.feelingsContainer .sad {
+  background: linear-gradient(-20deg, #1F2533, #161338);
+}
+.feelingsContainer .depression {
+  background: linear-gradient(-20deg, #747A86, #53637C);
+}
+.feelingsContainer .anxiety {
+  background: linear-gradient(-20deg, #ff3300, #ff3300);
+}
+.feelingsContainer .angry {
+  background: linear-gradient(-20deg, #ff0000, #ff0000);
+}
+.feelingsContainer .lonely {
+  background: linear-gradient(-20deg, #151D2A, #151D2A);
+}
+.feelingsContainer .animation {
+  background: linear-gradient(-20deg, #7c8491, #151D2A);
+}
+.feelingsContainer .bored {
+  background: linear-gradient(-20deg, #2c4979, #151D2A);
+}
+.feelingsContainer .satisfy {
+  background: linear-gradient(-20deg, #74a9ff, #b6d2ff);
+}
+.feelingsContainer .noMotivation {
+  background: linear-gradient(-20deg, #420404, #151D2A);
+}
+
+
+
+.feelingsContainer .feel span {
+  font-weight: bold;
+  font-size: 1.4em;
+}

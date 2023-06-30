@@ -1,0 +1,8 @@
+document.querySelector(".cumuPage").classList.add("active")
+document.querySelector(".blog").setAttribute("href", "../blog")
+document.querySelector(".habitPage").setAttribute("href", "../habit/")
+document.querySelector(".reminderPage").setAttribute("href", "../reminder/")
+document.querySelector(".progressPage").setAttribute("href", "../progress/")
+document.querySelector(".cumuPage").setAttribute("href", "index.php")
+document.querySelector(".defPage").setAttribute("href", "../definition/")
+document.querySelector(".feelingsPage").setAttribute("href", "../feelings/")

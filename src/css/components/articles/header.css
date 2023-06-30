@@ -1,0 +1,38 @@
+header {
+  position: fixed;
+  width: 10%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ffffff;
+  border-right: .1rem solid #ccc;
+  z-index: 2;
+  flex-direction: column;
+}
+
+a {
+  color: #000;
+}
+
+a.active { 
+  color: #FF3877;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+button.btn-finishSession {
+  color: #fff;
+  background-color: #363636;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  transition: .4s;
+}
+
+button.btn-finishSession:hover {
+  background-color: #000000;
+}
