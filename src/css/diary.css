@@ -17,13 +17,21 @@ main {
   margin: 10rem auto;
   width: 60%;
   background-color: #b3093f;
-  padding: 1rem .5rem;
+  padding: 1rem 0.5rem;
 }
 
-.diary-list a{
+.diary-list a {
   display: flex;
   color: #fff;
+  justify-content: space-between;
+  width: 100%;
 }
+
+.diary-list-title {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
 .write {
   padding: 0.5rem 0;
   background-color: #b3093f;
