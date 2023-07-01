@@ -1,8 +1,6 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
@@ -11,6 +9,7 @@ main {
   flex-direction: column;
   gap: 1rem;
   width: 50%;
+  margin: auto;
 }
 
 main h1,
@@ -37,7 +36,7 @@ form .habits {
   flex-direction: column;
   gap: 1rem;
   padding: 1rem 1.5rem;
-  background-color: #BF2A59;
+  background-color: #bf2a59;
   align-items: center;
 }
 
@@ -63,11 +62,11 @@ form .btn-start {
   display: block;
   text-align: center;
   margin: 0;
-  padding: .5rem 1rem;
-  background-color: #B3093F;
+  padding: 0.5rem 1rem;
+  background-color: #b3093f;
   color: #fff;
   cursor: pointer;
-  transition: all .4s;
+  transition: all 0.4s;
 }
 
 form .btn-start:hover {
@@ -90,38 +89,37 @@ form .description p {
   color: #fff;
 }
 
-
 /*MINDFULNESS*/
 
-    #timer {
-      position: relative;
-      width: 9rem;
-      height: 9rem;
-      border-radius: 50%;
-      overflow: hidden;
-      border: .2rem solid #E8B6C6;
-    }
+#timer {
+  position: relative;
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 0.2rem solid #e8b6c6;
+}
 
-    #liquid {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 0;
-      background-color: #B3093F;
-      transition: height 1s linear;
-    }
+#liquid {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #b3093f;
+  transition: height 1s linear;
+}
 
-    #timer span {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-family: Arial, sans-serif;
-      font-size: 2em;
-      color: #263238;
-    }
+#timer span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  color: #263238;
+}
 
-    .med {
-      width: 20rem;
-    }
+.med {
+  width: 20rem;
+}

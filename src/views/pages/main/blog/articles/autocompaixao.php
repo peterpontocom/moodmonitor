@@ -4,10 +4,10 @@ include "../../../../../components/articles/header.php"; ?>
 <link rel="stylesheet" href="css/article.css">
 
 <?php $h1 =
-  "Descubra o Poder da Autocompaixão: Ame-se e Transforme sua Vida"; ?>
+  ""; ?>
 
 <main>
-  <h1><?php echo $h1; ?></h1>
+  <h1><span>Descubra o Poder da Autocompaixão: Ame-se e Transforme sua Vida</span></h1>
   <p>
     Você já parou para refletir sobre como você se trata diariamente? Com que frequência você se dedica um tempo para cuidar de si mesmo e nutrir seu bem-estar emocional? A autocompaixão é uma prática transformadora que nos convida a nos amar e nos aceitar incondicionalmente. É uma forma de gentileza e compreensão que cultivamos em relação a nós mesmos, mesmo quando enfrentamos desafios e cometemos erros.
   </p>

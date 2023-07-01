@@ -1,71 +1,91 @@
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+  font-family: Arial, sans-serif;
 }
 
-main {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  width: 50%;
-  margin: auto;
+.entry-form {
+  max-width: 50%;
+  margin: 20px auto;
 }
 
-.diary-list {
-  display: flex;
-  margin: 10rem auto;
-  width: 60%;
-  background-color: #b3093f;
-  padding: 1rem 0.5rem;
-}
-
-.diary-list a {
-  display: flex;
-  color: #fff;
-  justify-content: space-between;
+.entry-form input[type="text"],
+.entry-form textarea {
   width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.diary-list-title {
-  font-weight: bold;
-  font-size: 1.2em;
-}
-
-.write {
-  padding: 0.5rem 0;
-  background-color: #b3093f;
-  color: #fff;
+.entry-form #titleInput {
+  font-weight: 600;
   text-align: center;
+  font-size: 1.4em;
+}
+
+.entry-form #contentInput {
+  height: 10rem;
+  background-color: #f1f1f1;
+}
+
+.entry-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #df3369;
+  border: none;
+  color: white;
   cursor: pointer;
-  transition: all 0.4s;
 }
 
-.write:hover {
-  filter: brightness(80%);
+.entries {
+  max-width: 50%;
+  margin: 20px auto;
 }
 
-#diaryTitle {
-  text-align: center;
-  background-color: #f0f0f0;
-  padding: 0.7rem 0.3rem;
-  font-weight: bold;
-  font-size: 1.3em;
+.entry {
+  background-color: #ffc0d4;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
 }
 
-#diaryContent {
-  background-color: #f0f0f0;
-  padding: 1rem;
+.entry h1 {
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-size: 1.5em;
 }
 
-.save {
-  padding: 0.5rem;
-  background-color: #b3093f;
-  text-align: center;
+.entry p {
+  margin-bottom: 0;
+}
+
+.entry p.truncated {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.entry-options {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.entry-options button {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  padding: .2rem 1rem;
+  background-color: #df3369;
   color: #fff;
-  transition: all 0.4s ease;
 }
 
-.save:hover {
-  filter: brightness(80%);
+
+/*Página writer*/
+
+main#writer {
+  margin: auto;
+  width: 80%;
+}
+
+main#writer h1 {
+  font-weight: 600;
+  text-align: center;
+  margin: 1rem 0;
 }

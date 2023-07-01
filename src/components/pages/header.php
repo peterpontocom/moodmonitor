@@ -20,6 +20,6 @@
     </ul>
   </nav>
   <div class="finishSession">
-    <button class="btn-finishSession">Terminar Sessão</button>
+    <a href="/moodmonitor/" class="btn-finishSession">Terminar Sessão</a>
   </div>
 </header>

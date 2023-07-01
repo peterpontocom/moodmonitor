@@ -6,18 +6,26 @@ include "../../../../components/pages/header.php";
 <link rel="stylesheet" href="../../../../css/feelings.css">
 
 <main>
-  <h1>How are you feeling?</h1>
-  <div class="feelingsContainer">
-    <a type="submit" class="feel happy"><span>Happy</span></a>
-    <a type="submit" class="feel sad"><span>Sad</span></a>
-    <a type="submit" class="feel depression"><span>Depression</span></a>
-    <a type="submit" class="feel anxiety"><span>Anxiety</span></a>
-    <a type="submit" class="feel angry"><span>Angry</span></a>
-    <a type="submit" class="feel lonely"><span>Lonely</span></a>
-    <a type="submit" class="feel animation"><span>no animation</span></a>
-    <a type="submit" class="feel bored"><span>Bored</span></a>
-    <a type="submit" class="feel satisfy"><span>Satisfy</span></a>
-    <a type="submit" class="feel noMotivation"><span>No Motivation</span></a>
+  <h1 class="text-center">Como está se sentindo?</h1>
+  <div class="field-feelings">
+    <a href="articles/happy.php" class="feeling happy">
+      <span>Feliz - (Actualizado)</span>
+    </a>
+    <a href="articles/sad.php" class="feeling sad">
+      <span>Triste - (Actualizado)</span>
+    </a>
+    <a href="articles/angry.php" class="feeling angry">
+      <span>Raiva</span>
+    </a>
+    <a href="articles/anxiety.php" class="feeling anxiety">
+      <span>Ansiedade</span>
+    </a>
+    <a href="articles/depression.php" class="feeling depression">
+      <span>Depressão - (Actualizado)</span>
+    </a>
+    <a href="articles/motivation.php" class="feeling motivation">
+      <span>Desmotivado/Motivado</span>
+    </a>
   </div>
 </main>
 

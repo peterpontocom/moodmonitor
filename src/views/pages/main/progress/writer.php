@@ -6,10 +6,17 @@
 ?>
 <link rel="stylesheet" href="../../../../css/diary.css">
 
-<main>
-  <form action="../../../../database/varification.php" method="post" class="d-flex flex-column gap-3">
-    <input type="text" name="diaryTitle" id="diaryTitle" placeholder="Titulo">
-    <textarea name="diaryContent" id="diaryContent" cols="30" rows="10" placeholder="Escreva seus sentimentos"></textarea>
-    <button class="save" name="save">Guardar</button>
-  </form>
+<main id="writer">
+  <div class="entry-details">
+    <h1 id="title"></h1>
+    <p id="content"></p>
+  </div>
+
+  <script>
+    var currentTitle = sessionStorage.getItem("currentTitle");
+    var currentContent = sessionStorage.getItem("currentContent");
+
+    document.getElementById("title").innerText = currentTitle;
+    document.getElementById("content").innerText = currentContent;
+  </script>
 </main>

@@ -1,5 +1,4 @@
 main {
-  margin-top: 7rem;
   margin-left: auto;
   margin-right: auto;
   width: 80%;
@@ -11,7 +10,7 @@ form {
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  margin-top: 9rem;
+  margin-top: 5rem;
 }
 
 form div {

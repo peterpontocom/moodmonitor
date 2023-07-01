@@ -65,7 +65,7 @@ include "../../../components/header.php";
     Você tem o direito de acessar, corrigir e actualizar suas informações pessoais a qualquer.
     </p>
   </div>
-  <a href="#" class="bg-primary">Li e aceito os Termos</a>
+  <a href="../main/blog/" class="bg-primary">Li e aceito os Termos</a>
 </main>
 <?php include "../../../components/footer.php";
 ?>

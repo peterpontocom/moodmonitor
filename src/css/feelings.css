@@ -1,8 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
@@ -10,71 +6,71 @@ main {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-  width: 50%;
+  width: 100%;
+  margin: auto;
 }
 
-main h1 { 
-  text-align: center;
-}
-
-.feelingsContainer{
+.field-feelings {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5rem;
+  margin: auto;
 }
 
-.feelingsContainer .feel {
-  /*padding: 1rem;*/
+.field-feelings a.feeling {
+  position: relative;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-color: #ccc;
-  height: 3rem;
-  transition: all .4s cubic-bezier(0.165, 0.84, 0.44, 1);
-  color: #ffffff;
+  align-items: flex-end;
+  width: 20rem;
+  height: 10rem;
+  background-color: #808080;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 0.9rem;
+  transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.field-feelings a.feeling::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(to top, #000000de, transparent);
 }
 
-.feelingsContainer .feel:hover {
-  transform: scale(0.9);
+.field-feelings a.feeling:hover {
+  transform: scale(1.1);
 }
 
-.feelingsContainer .happy {
-  background: linear-gradient(-20deg, #ffff00, #ffd932);
+.field-feelings a.feeling span {
+  margin-bottom: 1rem;
+  z-index: 2;
+  font-size: 1.2em;
+  font-weight: 600;
 }
 
-.feelingsContainer .sad {
-  background: linear-gradient(-20deg, #1F2533, #161338);
-}
-.feelingsContainer .depression {
-  background: linear-gradient(-20deg, #747A86, #53637C);
-}
-.feelingsContainer .anxiety {
-  background: linear-gradient(-20deg, #ff3300, #ff3300);
-}
-.feelingsContainer .angry {
-  background: linear-gradient(-20deg, #ff0000, #ff0000);
-}
-.feelingsContainer .lonely {
-  background: linear-gradient(-20deg, #151D2A, #151D2A);
-}
-.feelingsContainer .animation {
-  background: linear-gradient(-20deg, #7c8491, #151D2A);
-}
-.feelingsContainer .bored {
-  background: linear-gradient(-20deg, #2c4979, #151D2A);
-}
-.feelingsContainer .satisfy {
-  background: linear-gradient(-20deg, #74a9ff, #b6d2ff);
-}
-.feelingsContainer .noMotivation {
-  background: linear-gradient(-20deg, #420404, #151D2A);
-}
+/*wallpapers*/
 
-
-
-.feelingsContainer .feel span {
-  font-weight: bold;
-  font-size: 1.4em;
+.happy {
+  background-image: url("../assets/images/foto-mulher-seugrando-a-mao-na-cabeca.jpg");
+}
+.sad {
+  background-image: url("../assets/images/mulher-triste.jpg");
+}
+.angry {
+  background-image: url("../assets/images/homem-raiva.jpg");
+}
+.anxiety {
+  background-image: url("../assets/images/mulher-ansiedade.jpg");
+}
+.depression {
+  background-image: url("../assets/images/deitada-triste.jpg");
+}
+.motivation {
+  background-image: url("../assets/images/girl-training-box.jpg");
 }

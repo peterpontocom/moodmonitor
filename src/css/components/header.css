@@ -1,5 +1,5 @@
 header {
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   padding: 1rem;
@@ -20,14 +20,15 @@ nav ul {
   gap: 2rem;
 }
 
-button.btn-finishSession {
+a.btn-finishSession {
   color: #fff;
   background-color: #363636;
   padding: 0.4rem;
   border-radius: 1rem;
   transition: .4s;
+  cursor: pointer;
 }
 
-button.btn-finishSession:hover {
+a.btn-finishSession:hover {
   background-color: #000000;
 }

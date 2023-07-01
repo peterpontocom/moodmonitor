@@ -1,8 +1,5 @@
 <?php
-  include "../../../../components/pages/header.php";
-  include "../../../../components/pages/footer.php";
-
-?>
+include "../../../../components/pages/header.php"; ?>
 <link rel="stylesheet" href="../../../../css/blog.css">
 
 <main>
@@ -102,6 +99,16 @@
       </a>
     </section>
     <footer>
-      <a href="#" class="active">1</a><a href="#">2</a><a href="#">3</a><a href="#">4</a>
+        <div class="btn-group me-2" role="group" aria-label="Second group">
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+        <button type="button" class="btn btn-secondary">3</button>
+      </div>
     </footer>
 </main>
+
+
+<script src="scrollreveal-master/dist/scrollreveal.js"></script>
+<script src="js/scroll.js"></script>
+<?php include "../../../../components/pages/footer.php";
+?>

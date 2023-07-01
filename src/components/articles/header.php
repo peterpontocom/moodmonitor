@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="../../../../../css/components/main.css">
 
 <header class="d-flex justify-content-between align-items-center">
-  <a href="index.php" class="logo">
+  <a href="../index.php" class="logo">
     <img src="https://i.ibb.co/2KMbBK4/small-moodmonitor.png" alt="logo">
   </a>
   <nav>
