@@ -16,7 +16,7 @@ if (isset($_POST["send"])) {
         <div class="logo">
         <img src="https://i.ibb.co/1fXJNt9/moodmonitor.png" alt="moodmonitor">
         <p>
-            Monitores suas emoções
+            Monitore suas emoções
         </p>
         </div> 
         <form action="./src/views/pages/main" method="post" autocomplete="on">

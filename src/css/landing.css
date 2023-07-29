@@ -24,7 +24,7 @@ body {
   height: 100vh;
   overflow: hidden;
   font-size: 1.6rem;
-  background: #ff3877 url("../assets/images/fundo-lindo.jpg") no-repeat center
+  background: #ff3877 url("../assets/images/mulher-confiante-olhando-para-frente.jpg") no-repeat center
     center;
   background-size: cover;
   color: #fff;
@@ -38,7 +38,7 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #000000e5;
+  background: #0000006c;
 }
 
 main {
@@ -58,14 +58,25 @@ main {
 
 p {
   text-align: center;
+  font-size: 1em;
 }
 
 .links a {
   text-align: center;
   background-color: #ff3877;
   cursor: pointer;
+  transition: .4s;
 }
 .links a:last-child {
   text-align: center;
   background-color: #5e132b;
+}
+.links a:hover {
+  text-align: center;
+  background-color: #5e132b;
+  cursor: pointer;
+}
+.links a:last-child:hover {
+  text-align: center;
+  background-color: #ff3877;
 }
